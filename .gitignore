@@ -1,17 +1,29 @@
+# Python
+python_runtime/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.env
+
+# Data
+data/*.db
+data/*.sqlite
+
 # Dependencies
-/node_modules
-/.pnp
+node_modules/
+*/node_modules/
+.pnp
 .pnp.js
 
-# Testing
-/coverage
-
-# Next.js
-/.next/
-/out/
-
-# Production
+# Build outputs
+dist/
+*/dist/
+build/
 /build
+.next/
+/out/
 
 # Misc
 .DS_Store
