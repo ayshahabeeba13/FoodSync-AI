@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "committed_user",
+      "name": "Committed User",
+      "email": "committed@example.com",
+      "passwordHash": "dummy",
+      "role": "RESTAURANT_STAFF",
+      "createdAt": "2026-11-18T06:40:37.730Z"
+    },
+    {
+      "id": "ae931cde-454d-4de8-9738-cb1573582914",
+      "name": "Marco Rossi",
+      "email": "manager@bellaitalia.com",
+      "passwordHash": "$2a$10$2zqK9snC8U/gVssgIxvqvO7xpxgIfrw5okYjziXkSODB1CHwS13mq",
+      "role": "RESTAURANT_MANAGER",
+      "restaurantId": "6a9de9f2-8508-4604-8326-907dfd057c21",
+      "createdAt": "2026-11-18T06:40:37.809Z"
+    },
+    {
+      "id": "ce4f9ed4-e8bf-4742-95b8-6e5736c90d4a",
+      "name": "Anjali Rao",
+      "email": "coordinator@cityhope.org",
+      "passwordHash": "$2a$10$KrZgqXPfRwtnNHHlFLiAa.fttsvarD9vxiGe8kzj1Cy8CsLjC/G/C",
+      "role": "NGO_COORDINATOR",
+      "ngoId": "dd388cf6-5c45-4078-9d24-45fe930cab38",
+      "createdAt": "2026-11-18T06:40:37.890Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "6a9de9f2-8508-4604-8326-907dfd057c21",
+      "name": "Bella Italia Trattoria",
+      "cuisine": "Italian & Wood-Fired Pizza",
+      "address": "100 Feet Road, Indiranagar, Bangalore",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "phone": "+91 98765 43210",
+      "fssaiLicenseNumber": "11223344556677",
+      "createdAt": "2026-11-18T06:40:37.732Z"
+    }
+  ],
+  "ngos": [
+    {
+      "id": "dd388cf6-5c45-4078-9d24-45fe930cab38",
+      "name": "City Hope Food Rescue",
+      "regNumber": "NGO-KA-2024-8849",
+      "contactPerson": "Anjali Rao",
+      "address": "MG Road Community Center, Bangalore",
+      "latitude": 12.976,
+      "longitude": 77.6033,
+      "phone": "+91 98765 12345",
+      "verificationStatus": "VERIFIED",
+      "fssaiSurplusDistributionPermit": "FSSAI-IFSA-2026-0912",
+      "createdAt": "2026-11-18T06:40:37.811Z"
+    }
+  ],
+  "ingredientBatches": [],
+  "preparedFoodPortions": [],
+  "surplusListings": [],
+  "foodSafetyInspections": [],
+  "b2bTransfers": [],
+  "ngoDonations": [],
+  "recipes": [],
+  "recipeIngredients": [],
+  "stockAuditLogs": []
+}
