@@ -81,7 +81,7 @@ Copy `.env.example` to `.env`:
 ```bash
 DATABASE_URL=postgresql+psycopg2://postgres:postgres@localhost:5432/foodsync_db
 TEST_DATABASE_URL=sqlite:///./data/foodsync_test.db
-SECRET_KEY=foodsync-production-grade-super-secret-jwt-key-2026-secure
+SECRET_KEY=replace_with_your_own_random_secret
 ENVIRONMENT=development
 DEMO_MODE=True
 PORT=8000
